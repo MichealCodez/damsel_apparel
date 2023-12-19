@@ -5,7 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Node
 *node_modules/
+
+# Minst
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/

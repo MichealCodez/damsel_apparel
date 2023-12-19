@@ -1,7 +1,7 @@
-import Header from "../components/top_main/header/Header";
+import TopMain from "../components/top_main/TopMain";
 
 function Home() {
-  return <Header />;
+  return <TopMain />;
 }
 
 export default Home;

@@ -1,5 +1,5 @@
 import Search from "./Search";
-import Button from "./Button";
+import Button from "../../../Button";
 import { assets } from "../../../../utils";
 
 function TopHeader() {

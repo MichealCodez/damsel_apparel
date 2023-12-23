@@ -1,4 +1,4 @@
-import Button from "../../Button";
+import Button from "../../commons/Button";
 import { assets } from "../../../utils";
 
 function Content() {

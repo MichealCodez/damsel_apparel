@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1024px) {
+  .brand-cont {
+    display: flex;
+    width: 60vw;
+    margin: 4% auto;
+    justify-content: space-between;
+  }
+
+  .brands {
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+}

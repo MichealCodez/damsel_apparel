@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { assets } from "../../../../utils";
 
 function Search() {
   const [showSearch, setShowSearch] = useState(false);
@@ -7,13 +8,13 @@ function Search() {
     setShowSearch(true);
   }
   return (
-    <div id="search">
+    <div className="search">
       {showSearch && (
         <input type="text" className="search-input" name="search" />
       )}
       <img
         className="search-icon"
-        src={`${process.env.PUBLIC_URL}/assets/icons/search_icon.png`}
+        src={`${assets}/icons/search_icon.svg`}
         alt="search icon"
         onClick={handleclick}
       />

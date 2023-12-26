@@ -3,12 +3,17 @@ import { assets } from "../../../utils";
 
 function Content() {
   return (
-    <div id="content-div">
+    <div className="content-div">
       <h1>Collections</h1>
-      <p>
-        You Can Explore And Shop Different Collections From Various Brands Here.
-      </p>
-      <Button name={"Shop Now"} src={`${assets}/icons/shopping_icon.png`} />
+      <div>
+        <p>You Can Explore And Shop Different Collections</p>
+        <p>From Various Brands Here.</p>
+      </div>
+      <Button
+        name={"Shop Now"}
+        src={`${assets}/icons/shopping_icon.svg`}
+        className={"content-btn"}
+      />
     </div>
   );
 }

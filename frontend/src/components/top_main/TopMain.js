@@ -1,10 +1,11 @@
 import Header from "./header/Header";
 import Product from "./product/Product";
 import { assets } from "../../utils";
+import "./topmain.css";
 
 function MiniTopMain() {
   return (
-    <div id="mini-top-main">
+    <div className="mini-top-main">
       <Header />
       <Product />
     </div>
@@ -13,14 +14,14 @@ function MiniTopMain() {
 
 function TopMain() {
   return (
-    <div id="top-main">
+    <div className="top-main">
       <img
         id="left-flower"
         src={`${assets}/commons/Frame-2.png`}
         alt="Flower"
       />
-      <MiniTopMain />
       <img id="right-flower" src={`${assets}/commons/Frame.png`} alt="Flower" />
+      <MiniTopMain />
     </div>
   );
 }

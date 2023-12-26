@@ -1,8 +1,8 @@
-function Button({ name, src = false, alt, iconStyle, btnStyle }) {
+function Button({ name, src = false, alt, className }) {
   return (
-    <button style={btnStyle}>
-      {src && <img src={src} alt={alt} style={iconStyle} />}
-      {name}
+    <button className={className}>
+      {src && <img src={src} alt={alt} />}
+      <p>{name}</p>
     </button>
   );
 }

@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1024px) {
+  .top-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: -10%;
+  }
+
+  .btn-right {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  }
+
+  .abtn {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .abtn:hover,
+  .abtn:focus {
+    filter: invert(60%) sepia(31%) saturate(3515%) hue-rotate(321deg)
+      brightness(101%) contrast(101%);
+  }
+
+  .abtn img {
+    width: 15%;
+    margin: 0 10% 0 0;
+  }
+
+  .abtn p {
+    display: inline-block;
+  }
+
+  .search {
+    display: flex;
+    /* align-items: flex-end; */
+    gap: 8px;
+    width: 4%;
+  }
+
+  .search-input {
+    border: 0.05rem solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: inherit;
+  }
+
+  .search-input:active,
+  .search-input:focus {
+    border: none;
+  }
+
+  .search-icon {
+    width: 18px;
+    height: 25px;
+    cursor: pointer;
+    margin-bottom: -3px;
+  }
+}

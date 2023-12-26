@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px) {
+  /* Desktop Styles */
+  .top-main {
+    width: 100vw;
+    height: 80vh;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    position: relative;
+  }
+
+  .mini-top-main {
+    width: 60vw;
+    margin: auto;
+  }
+
+  #left-flower,
+  #right-flower {
+    position: absolute;
+  }
+
+  #left-flower {
+    top: 70%;
+  }
+
+  #right-flower {
+    width: 195px;
+    top: 40%;
+    left: 86.5%;
+  }
+}

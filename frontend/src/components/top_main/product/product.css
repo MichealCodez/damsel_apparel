@@ -70,12 +70,6 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    font-feature-settings: "clig" off, "liga" off;
-    /* Button - Larg */
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-transform: capitalize;
   }
 

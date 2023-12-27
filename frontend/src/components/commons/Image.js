@@ -1,7 +1,9 @@
-function ProductImage({ imgStyle, src }) {
+import "./common.css";
+
+function ProductImage({ src }) {
   return (
-    <div className="img-cont">
-      <img src={src} alt="product" style={imgStyle} />
+    <div className="card-img-cont">
+      <img src={src} alt="product" />
     </div>
   );
 }

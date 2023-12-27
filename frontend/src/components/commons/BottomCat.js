@@ -1,12 +1,8 @@
-function BottomCat(name, quantity, pStyles) {
+function BottomCat({ name, quantity, display }) {
   return (
-    <div className="botton-cat">
-      <p className="name" style={pStyles}>
-        {name}
-      </p>
-      <p className="quantity" style={pStyles}>
-        {quantity} products
-      </p>
+    <div className="bottom-cat" style={{ display: display }}>
+      <h6 className="name">{name}</h6>
+      <h6 className="quantity">{quantity} products</h6>
     </div>
   );
 }

@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1024px) {
+  .hot-cat {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .vertical-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    color: var(--Dark, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    height: fit-content;
+    width: fit-content;
+
+    /* Body 2 */
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    left: 4%;
+  }
+
+  .cards-cont {
+    width: 100%;
+    height: inherit;
+    display: grid;
+    grid-template-areas:
+      "ft ft sc td"
+      "ft ft fr ff";
+    gap: 0.5rem 0.5rem;
+    grid-auto-rows: 48%;
+  }
+
+  .card:first-child .bottom-cat {
+    top: 92.5%;
+  }
+
+  .cards-cont .card:first-child {
+    grid-area: ft;
+  }
+
+  .cards-cont .card:nth-child(2) {
+    grid-area: sc;
+  }
+
+  .cards-cont .card:nth-child(3) {
+    grid-area: td;
+  }
+
+  .cards-cont .card:nth-child(4) {
+    grid-area: fr;
+  }
+  .cards-cont .card:last-child {
+    grid-area: ff;
+  }
+  .hot-cat .card {
+    width: 100%;
+  }
+}

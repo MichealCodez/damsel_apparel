@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1024px) {
   .brand-cont {
     display: flex;
-    width: 60vw;
+    width: 60%;
     margin: 4% auto;
     justify-content: space-between;
   }

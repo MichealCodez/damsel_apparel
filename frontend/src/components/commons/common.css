@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1024px) {
+  .card {
+    position: relative;
+  }
+
+  .ribbon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    color: var(--White, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    top: 5%;
+
+    /* Overline */
+    font-family: Open Sans;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .bottom-cat {
+    display: none;
+    width: inherit;
+    padding: 10px 14px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--Black, #1e2832);
+    background: var(--Black, #1e2832);
+    color: var(--White, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* H6 */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 85.2%;
+  }
+
+  .card-img-cont,
+  .card-img-cont img {
+    width: 100%;
+    height: 100%;
+  }
+}

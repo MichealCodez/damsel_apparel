@@ -1,4 +1,4 @@
-import Card from "../commons/Card";
+import Card from "./Card";
 import { assets } from "../../utils";
 import "./hot_category.css";
 
@@ -8,31 +8,31 @@ function HotCategory() {
       name: "Manto",
       quantity: 86,
       ribbonText: "HOT",
-      src: "21.png",
+      src: "6.JPG",
     },
     {
       name: "Pants",
       quantity: 200,
       ribbonText: "HOT",
-      src: "01.png",
+      src: "7.JPG",
     },
     {
       name: "Coat",
       quantity: 520,
       ribbonText: "SALE",
-      src: "03.png",
+      src: "8.JPG",
     },
     {
       name: "Shirt",
       quantity: 320,
       ribbonText: "HOT",
-      src: "02.png",
+      src: "9.JPG",
     },
     {
       name: "Jacket",
       quantity: 103,
-      ribbonText: "HOT",
-      src: "20.png",
+      ribbonText: null,
+      src: "10.JPG",
     },
   ];
   return (

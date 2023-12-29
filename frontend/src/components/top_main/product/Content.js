@@ -7,7 +7,7 @@ function Content() {
       <h1>Collections</h1>
       <div>
         <p>You Can Explore And Shop Different Collections</p>
-        <p>From Various Brands Here.</p>
+        <p>From Various Hairs Here.</p>
       </div>
       <Button
         name={"Shop Now"}

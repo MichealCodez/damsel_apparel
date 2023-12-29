@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1024px) {
   .hot-cat {
     width: 60%;
-    height: 60%;
+    height: 450px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -23,22 +23,32 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    left: 4%;
+    left: 4.5%;
+  }
+
+  .card {
+    position: relative;
   }
 
   .cards-cont {
     width: 100%;
-    height: inherit;
+    max-height: 100%;
     display: grid;
     grid-template-areas:
       "ft ft sc td"
       "ft ft fr ff";
     gap: 0.5rem 0.5rem;
-    grid-auto-rows: 48%;
+    grid-auto-columns: 206px;
+    grid-auto-rows: 220px;
+    justify-content: end;
   }
 
   .card:first-child .bottom-cat {
-    top: 92.5%;
+    top: 93%;
+  }
+
+  .card:first-child .ribbon {
+    top: 3%;
   }
 
   .cards-cont .card:first-child {
@@ -60,6 +70,6 @@
     grid-area: ff;
   }
   .hot-cat .card {
-    width: 100%;
+    /* width: 200px; */
   }
 }

@@ -1,12 +1,12 @@
 function Menu() {
   const cat = [
-    "Jewelry & Accessories",
-    "Clothing & Shoes",
-    "Home & Living",
-    "Wedding & Party",
-    "Toys & Entertainment",
-    "Art & Collectibles",
-    "Craft Supplies & Tools",
+    "Hair Accessories",
+    "Bonestraight",
+    "Deep Curls",
+    "Pixie Curls",
+    "Short Bob",
+    "Straight Wig",
+    "Perfume",
   ];
   return (
     <ul className="menu">

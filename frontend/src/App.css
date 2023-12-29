@@ -7,6 +7,11 @@
   font-family: Roboto;
 }
 
+img {
+  display: block;
+  /* height: auto; */
+}
+
 body {
   overflow-x: hidden;
 }

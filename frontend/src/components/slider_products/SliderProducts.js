@@ -14,7 +14,7 @@ function SliderProducts() {
       <h2 className="section-header">Best Seller</h2>
       <TopSectionProducts buttonText={"Show All"} />
       <div className="grid-cards-cont">
-        {cards.map((value) => (
+        {cards.map((value, index) => (
           <MainCard
             ribbon={value.ribbon}
             image={value.image}
@@ -22,7 +22,8 @@ function SliderProducts() {
             productName={value.name}
             type={value.type}
             price={value.price}
-            key={value.name}
+            video={value.video}
+            key={index}
           />
         ))}
       </div>

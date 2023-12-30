@@ -20,7 +20,13 @@ function BrandBanner() {
           </p>
           {/* <p>From Various Hairs Here.</p> */}
         </div>
-        <Button name={"See Collection"} className={"brand-banner-btn"} />
+        <a
+          href="https://api.whatsapp.com/send?phone=2348148641117&text=Hi+Casie!%2C+I+will+like+to+shop+some+hair."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button name={"See Collection"} className={"brand-banner-btn"} />
+        </a>
       </div>
       <div className="background-brand">CASIE</div>
     </section>

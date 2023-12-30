@@ -75,8 +75,7 @@
     white-space: nowrap;
   }
 
-  .content-btn:hover,
-  .content-btn:focus {
+  .content-btn:hover {
     background-color: #ff6f61;
   }
 

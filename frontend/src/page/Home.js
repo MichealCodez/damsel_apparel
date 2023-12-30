@@ -5,6 +5,7 @@ import GridProducts from "../components/grid_products/GridProducts";
 import BrandBanner from "../components/brand_banner/BrandBanner";
 import SliderProducts from "../components/slider_products/SliderProducts";
 import NewsletterInstagram from "../components/newsletter_instagram/NewsletterInstagram";
+import Footer from "../components/footer/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <BrandBanner />
       <SliderProducts />
       <NewsletterInstagram />
+      <Footer />
     </>
   );
 }

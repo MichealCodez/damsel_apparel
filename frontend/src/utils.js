@@ -1,6 +1,6 @@
 export const assets = `${process.env.PUBLIC_URL}/assets`;
 
-export function displayCard(data, limit, prop) {
+export function displayCard(data, limit, prop = (data, j) => data && j) {
   let condition;
   let cards = [];
   let i = 0,
@@ -27,7 +27,7 @@ export const imgs = [
     best_seller: true,
     hot_seller: true,
     price: 200000,
-    video: null,
+    video: "https://gmail.com/",
     sold: false,
     likes: 32,
   },

@@ -2,7 +2,7 @@ import Button from "./Button";
 import { assets } from "../../utils";
 import { useState } from "react";
 
-function MainBottomCat({ likes, display }) {
+function MainBottomCat({ likes, display, video, message }) {
   const [liked, setLiked] = useState(false);
   function handleLiked() {
     setLiked(true);
@@ -23,17 +23,22 @@ function MainBottomCat({ likes, display }) {
             }}
           />
         </div>
-        <img
-          className="video-icon abtn"
-          src={`${assets}/icons/video_icon.svg`}
-          alt="Watch Video"
-        />
+        {video && (
+          <a href={video} target="_blank" rel="noreferrer">
+            <img
+              className="video-icon abtn"
+              src={`${assets}/icons/video_icon.svg`}
+              alt="Watch Video"
+            />
+          </a>
+        )}
       </div>
       <Button
         className={"shopping-btn abtn"}
         name="Shop Now"
         src={`${assets}/icons/shopping_icon.svg`}
         alt="Shop Now"
+        message={message}
       />
     </div>
   );

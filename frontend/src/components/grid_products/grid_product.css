@@ -32,6 +32,10 @@
     color: #ff6f61;
   }
 
+  .grid-product a {
+    text-decoration: none;
+  }
+
   .top-section-products {
     display: flex;
     width: 100%;

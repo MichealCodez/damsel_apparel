@@ -16,15 +16,23 @@ img {
 .top-main,
 .hot_category,
 .grid_prodects,
-.brand-cont {
+.brand-cont,
+.instagram-cont,
+.mini-footer-cont,
+.main-footer {
   width: 60%;
 }
 
 .slider-products,
 .hot_category,
 .grid_prodects,
-.brand-cont {
+.brand-cont,
+.instagram-cont {
   margin: 5% auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

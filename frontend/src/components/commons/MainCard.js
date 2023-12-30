@@ -16,8 +16,14 @@ function BottomProduct({ productName, type = "Hair", price }) {
     </div>
   );
 }
-
-function MainCard({ ribbon, image, likes, productName, type, price }) {
+// ribbon={value.ribbon}
+//             image={value.image}
+//             likes={value.likes}
+//             productName={value.name}
+//             type={value.type}
+//             price={value.price}
+//             video={value.video}
+function MainCard({ ribbon, image, likes, productName, type, price, video }) {
   const [hovering, setHovering] = useState(false);
   function handleHovering() {
     setHovering(!hovering);
@@ -30,7 +36,12 @@ function MainCard({ ribbon, image, likes, productName, type, price }) {
     >
       <Ribbon text={ribbon} />
       <ProductImage src={`${assets}/images/${image}`} />
-      <MainBottomCat likes={likes} display={hovering && "flex"} />
+      <MainBottomCat
+        likes={likes}
+        display={hovering && "flex"}
+        video={video}
+        message={`Hi Casie!, I will like to shop ${productName} for ${price}.`}
+      />
       <BottomProduct productName={productName} type={type} price={price} />
     </div>
   );

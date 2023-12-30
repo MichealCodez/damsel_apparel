@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1024px) {
+  .newsletter-instagram-section {
+    height: 60%;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5% 0;
+  }
+  form {
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+  }
+  .email,
+  .submit-btn {
+    border-style: none none solid none;
+    background: none;
+    padding: 8px;
+  }
+
+  .email {
+    width: 80%;
+    color: var(--Black-50, rgba(30, 40, 50, 0.5));
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .submit-btn {
+    width: 16%;
+    color: var(--Black, #1e2832);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .submit-btn:hover {
+    color: #ff6f61;
+    border-color: #ff6f61;
+  }
+}

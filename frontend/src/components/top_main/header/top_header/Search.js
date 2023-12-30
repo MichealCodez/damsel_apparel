@@ -10,7 +10,12 @@ function Search() {
   return (
     <div className="search">
       {showSearch && (
-        <input type="text" className="search-input" name="search" />
+        <input
+          type="text"
+          className="search-input"
+          name="search"
+          placeholder="Search..."
+        />
       )}
       <img
         className="search-icon"

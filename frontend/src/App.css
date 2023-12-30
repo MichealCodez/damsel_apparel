@@ -12,6 +12,21 @@ img {
   /* height: auto; */
 }
 
+.slider-products,
+.top-main,
+.hot_category,
+.grid_prodects,
+.brand-cont {
+  width: 60%;
+}
+
+.slider-products,
+.hot_category,
+.grid_prodects,
+.brand-cont {
+  margin: 5% auto;
+}
+
 body {
   overflow-x: hidden;
 }

@@ -14,7 +14,7 @@ function MiniTopMain() {
 
 function TopMain() {
   return (
-    <div className="top-main">
+    <section className="top-main">
       <img
         id="left-flower"
         src={`${assets}/commons/Frame-2.png`}
@@ -22,7 +22,7 @@ function TopMain() {
       />
       <img id="right-flower" src={`${assets}/commons/Frame.png`} alt="Flower" />
       <MiniTopMain />
-    </div>
+    </section>
   );
 }
 

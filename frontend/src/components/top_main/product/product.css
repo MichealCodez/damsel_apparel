@@ -28,7 +28,7 @@
 
   #photo {
     z-index: 1;
-    border-radius: 100px 0;
+    border-radius: 85px 0;
   }
 
   .content-div {
@@ -72,6 +72,7 @@
     align-items: center;
     gap: 8px;
     text-transform: capitalize;
+    white-space: nowrap;
   }
 
   .content-btn:hover,

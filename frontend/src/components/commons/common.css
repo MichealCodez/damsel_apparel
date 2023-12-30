@@ -1,4 +1,129 @@
 @media only screen and (min-width: 1024px) {
+  .main-card {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20%;
+  }
+
+  .main-bottom-cat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    padding: 6px 7px 6px 8px;
+    top: 85%;
+  }
+
+  .main-bottom-cat,
+  .main-bottom-cat-left {
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-bottom-cat-left {
+    display: flex;
+    width: 35%;
+    height: 100%;
+  }
+
+  .likes-cont {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .likes {
+    /* width: fit-content;
+    height: fit-content; */
+    position: absolute;
+    padding: 2.5% 15%;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Open Sans;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    z-index: 1;
+    top: 1%;
+    left: 2%;
+  }
+
+  .heart-icon {
+    margin-left: 25%;
+  }
+
+  .main-bottom-cat .shopping-btn {
+    color: #fff;
+  }
+
+  .main-bottom-cat img {
+    filter: invert(100%) sepia(0%) saturate(7429%) hue-rotate(26deg)
+      brightness(120%) contrast(114%);
+  }
+
+  .main-bottom-cat .heart-icon,
+  .main-bottom-cat .video-icon {
+    width: 25px;
+  }
+
+  .bottom-product {
+    height: 55px;
+    padding: 5% 2%;
+    color: var(--Dark, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Open Sans;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .bottom-product p {
+    color: var(--Dark-50, rgba(0, 0, 0, 0.5));
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Open Sans;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .category {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Dark-50, rgba(0, 0, 0, 0.5));
+    font-feature-settings: "clig" off, "liga" off;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .category li:hover {
+    color: #ff6f61;
+  }
+
   .ribbon {
     display: flex;
     justify-content: center;
@@ -10,8 +135,6 @@
     text-align: center;
     font-feature-settings: "clig" off, "liga" off;
     top: 5%;
-
-    /* Overline */
     font-family: Open Sans;
     font-size: 0.6rem;
     font-style: normal;
@@ -30,8 +153,6 @@
     background: var(--Black, #1e2832);
     color: var(--White, #fff);
     font-feature-settings: "clig" off, "liga" off;
-
-    /* H6 */
     font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;

@@ -2,15 +2,21 @@ import TopMain from "../components/top_main/TopMain";
 import Brand from "../components/brand/Brand";
 import HotCategory from "../components/hot_category/HotCategory";
 import GridProducts from "../components/grid_products/GridProducts";
+import BrandBanner from "../components/brand_banner/BrandBanner";
+import SliderProducts from "../components/slider_products/SliderProducts";
+import NewsletterInstagram from "../components/newsletter_instagram/NewsletterInstagram";
 
 function Home() {
   return (
-    <div id="home">
+    <>
       <TopMain />
       <Brand />
       <HotCategory />
       <GridProducts />
-    </div>
+      <BrandBanner />
+      <SliderProducts />
+      <NewsletterInstagram />
+    </>
   );
 }
 

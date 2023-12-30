@@ -1,5 +1,5 @@
 function Footer() {
-  return <></>;
+  return <section></section>;
 }
 
 export default Footer;

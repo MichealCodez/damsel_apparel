@@ -1,3 +1,5 @@
+import "./common.css";
+
 function Category() {
   const categories = [
     "All Products",
@@ -8,13 +10,11 @@ function Category() {
     "Straight Wig",
   ];
   return (
-    <div className="category">
-      <ul>
-        {categories.map((value) => (
-          <li key={value}>{value}</li>
-        ))}
-      </ul>
-    </div>
+    <ul className="category">
+      {categories.map((value) => (
+        <li key={value}>{value}</li>
+      ))}
+    </ul>
   );
 }
 

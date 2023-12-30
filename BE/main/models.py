@@ -23,6 +23,13 @@ class NewsletterSubscriber(models.Model):
 
     def __str__(self):
         return str(self.email)
+    
+class Instagram(models.Model):
+    image = models.ImageField(upload_to="instagram")
+    video = models.CharField(max_length=500, default="null")
+
+    def __str__(self):
+        return str(self.id)
 
 class Product(models.Model):
     type = models.ForeignKey(Type, on_delete=models.CASCADE)

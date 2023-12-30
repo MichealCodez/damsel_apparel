@@ -36,7 +36,7 @@ class Product(models.Model):
     quantity = models.IntegerField(default=1)
     video = models.CharField(max_length=500, default="null")
     sold = models.BooleanField(default=False)
-    likes = models.IntegerField()
+    likes = models.IntegerField(default=0)
 
 def __str__(self):
     return str(self.name)

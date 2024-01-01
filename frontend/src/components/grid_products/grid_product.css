@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px) {
   .grid-product {
-    width: 60%;
+    max-width: 60%;
     height: 650px;
     margin: 5% auto 10%;
     display: flex;
@@ -9,6 +9,7 @@
   }
 
   .grid-cards-cont {
+    max-width: 100%;
     position: relative;
     display: grid;
     gap: 1rem 1rem;

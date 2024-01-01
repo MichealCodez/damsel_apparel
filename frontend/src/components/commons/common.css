@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1024px) {
   .main-card {
     position: relative;
-    width: 100%;
+    width: min(100%, 500px);
     margin-bottom: 20%;
   }
 
@@ -71,8 +71,7 @@
       brightness(120%) contrast(114%);
   }
 
-  .main-bottom-cat .heart-icon,
-  .main-bottom-cat .video-icon {
+  .main-bottom-cat :where(.heart-icon, .video-icon) {
     width: 25px;
   }
 

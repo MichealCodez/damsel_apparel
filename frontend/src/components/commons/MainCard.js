@@ -16,13 +16,6 @@ function BottomProduct({ productName, type = "Hair", price }) {
     </div>
   );
 }
-// ribbon={value.ribbon}
-//             image={value.image}
-//             likes={value.likes}
-//             productName={value.name}
-//             type={value.type}
-//             price={value.price}
-//             video={value.video}
 function MainCard({ ribbon, image, likes, productName, type, price, video }) {
   const [hovering, setHovering] = useState(false);
   function handleHovering() {

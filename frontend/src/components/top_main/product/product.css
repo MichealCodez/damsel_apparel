@@ -62,7 +62,8 @@
   }
 
   .content-btn {
-    width: 35%;
+    /* width: 35%; */
+    padding: 2% 6%;
     border: none;
     background: var(--Black, #1e2832);
     cursor: pointer;

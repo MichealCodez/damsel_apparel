@@ -59,7 +59,7 @@
 
   .search-input:active,
   .search-input:focus {
-    border: none;
+    outline: none;
   }
 
   .search-icon {

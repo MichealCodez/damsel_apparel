@@ -70,7 +70,4 @@
   .cards-cont .card:last-child {
     grid-area: ff;
   }
-  .hot-cat .card {
-    /* width: 200px; */
-  }
 }

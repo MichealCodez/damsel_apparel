@@ -1,65 +1,84 @@
-@media only screen and (min-width: 1024px) {
-  .brand-banner {
-    position: relative;
-  }
-  .brand-banner img {
-    width: 100%;
-    height: 600px;
-  }
-
-  .description {
-    position: absolute;
-    width: 30%;
-    color: white;
-    top: 30%;
-    left: 55%;
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 2.5rem;
-    text-transform: capitalize;
-  }
-
-  .description h1,
-  .background-brand {
-    font-family: Didot;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.6rem;
-    z-index: 1;
-  }
-
-  .description p {
-    margin: 5% 0;
-  }
-
-  .brand-banner-btn {
-    color: black;
-    background-color: white;
-    border: none;
-    font-size: 1.5rem;
-    font-family: Roboto;
-    padding: 2% 4%;
-    color: var(--Black, #1e2832);
-    font-feature-settings: "clig" off, "liga" off;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-  }
-
-  .brand-banner-btn:hover {
-    background-color: #ff6f61;
-    cursor: pointer;
-  }
-
-  .background-brand {
-    position: absolute;
-    font-size: 20rem;
-    color: rgba(255, 255, 255, 0.1);
-    top: -8%;
-    left: 60%;
-    letter-spacing: -7rem;
-  }
+.brand-banner {
+  position: relative;
 }
+.brand-banner img {
+  width: 100%;
+  height: 600px;
+}
+
+.description {
+  position: absolute;
+  width: 30%;
+  color: white;
+  top: 30%;
+  left: 55%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+}
+
+.description h1,
+.background-brand {
+  font-family: Didot;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6rem;
+  z-index: 1;
+}
+
+.description p {
+  margin: 5% 0;
+}
+
+.brand-banner-btn {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-family: Roboto;
+  padding: 2% 4%;
+  color: var(--Black, #1e2832);
+  font-feature-settings: "clig" off, "liga" off;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.brand-banner-btn:hover {
+  background-color: #ff6f61;
+  cursor: pointer;
+}
+
+.background-brand {
+  position: absolute;
+  font-size: 20rem;
+  color: rgba(255, 255, 255, 0.1);
+  top: -8%;
+  left: 60%;
+  letter-spacing: -7rem;
+}
+
+/* Your regular styles for desktop go here */
+
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

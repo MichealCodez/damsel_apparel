@@ -1,30 +1,49 @@
-@media only screen and (min-width: 1024px) {
-  /* Desktop Styles */
-  .top-main {
-    width: 100%;
-    height: 70%;
-    background: var(--Black-5, rgba(30, 40, 50, 0.05));
-    position: relative;
-    padding-bottom: 4%;
-  }
-
-  .mini-top-main {
-    width: 60%;
-    margin: auto;
-  }
-
-  #left-flower,
-  #right-flower {
-    position: absolute;
-  }
-
-  #left-flower {
-    top: 70%;
-  }
-
-  #right-flower {
-    width: 195px;
-    top: 40%;
-    left: 86.5%;
-  }
+/* Desktop Styles */
+.top-main {
+  width: 100%;
+  height: 70%;
+  background: var(--Black-5, rgba(30, 40, 50, 0.05));
+  position: relative;
+  padding-bottom: 4%;
 }
+
+.mini-top-main {
+  width: 60%;
+  margin: auto;
+}
+
+#left-flower,
+#right-flower {
+  position: absolute;
+}
+
+#left-flower {
+  top: 70%;
+}
+
+#right-flower {
+  width: 195px;
+  top: 40%;
+  left: 86.5%;
+}
+
+/* Your regular styles for desktop go here */
+
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

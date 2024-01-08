@@ -1,73 +1,92 @@
-@media only screen and (min-width: 1024px) {
-  .hot-cat {
-    width: 60%;
-    height: 500px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-  }
-
-  .vertical-text {
-    position: absolute;
-    transform: rotate(-90deg);
-    flex-shrink: 0;
-    color: var(--Dark, #000);
-    font-feature-settings: "clig" off, "liga" off;
-    height: fit-content;
-    width: fit-content;
-
-    /* Body 2 */
-    font-family: Roboto;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    left: 3.5%;
-  }
-
-  .card {
-    position: relative;
-  }
-
-  .cards-cont {
-    width: 100%;
-    max-height: 100%;
-    display: grid;
-    grid-template-areas:
-      "ft ft sc td"
-      "ft ft fr ff";
-    gap: 0.5rem 0.5rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-auto-columns: 206px; */
-    grid-auto-rows: 230px;
-    justify-content: end;
-  }
-
-  .card:first-child .bottom-cat {
-    top: 93%;
-  }
-
-  .card:first-child .ribbon {
-    top: 3%;
-  }
-
-  .cards-cont .card:first-child {
-    grid-area: ft;
-  }
-
-  .cards-cont .card:nth-child(2) {
-    grid-area: sc;
-  }
-
-  .cards-cont .card:nth-child(3) {
-    grid-area: td;
-  }
-
-  .cards-cont .card:nth-child(4) {
-    grid-area: fr;
-  }
-  .cards-cont .card:last-child {
-    grid-area: ff;
-  }
+.hot-cat {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
+
+.vertical-text {
+  position: absolute;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  color: var(--Dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  height: fit-content;
+  width: fit-content;
+
+  /* Body 2 */
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  left: 3.5%;
+}
+
+.card {
+  position: relative;
+}
+
+.cards-cont {
+  width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-areas:
+    "ft ft sc td"
+    "ft ft fr ff";
+  gap: 0.5rem 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-auto-columns: 206px; */
+  grid-auto-rows: 230px;
+  justify-content: end;
+}
+
+.card:first-child .bottom-cat {
+  top: 93%;
+}
+
+.card:first-child .ribbon {
+  top: 3%;
+}
+
+.cards-cont .card:first-child {
+  grid-area: ft;
+}
+
+.cards-cont .card:nth-child(2) {
+  grid-area: sc;
+}
+
+.cards-cont .card:nth-child(3) {
+  grid-area: td;
+}
+
+.cards-cont .card:nth-child(4) {
+  grid-area: fr;
+}
+.cards-cont .card:last-child {
+  grid-area: ff;
+}
+
+/* Your regular styles for desktop go here */
+
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

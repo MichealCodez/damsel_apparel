@@ -1,28 +1,47 @@
-@media only screen and (min-width: 1024px) {
-  .slider-products {
-    height: 40%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
+.slider-products {
+  height: 40%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
-  .section-header {
-    color: var(--Dark, #000);
-    text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Roboto;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-  }
-  /* .section-header:hover {
+.section-header {
+  color: var(--Dark, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+/* .section-header:hover {
     color: #ff6f61;
   } */
 
-  .grid-cards-cont {
-    display: grid;
-    grid-auto-flow: column;
-  }
+.grid-cards-cont {
+  display: grid;
+  grid-auto-flow: column;
 }
+
+/* Your regular styles for desktop go here */
+
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

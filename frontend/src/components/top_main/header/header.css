@@ -1,24 +1,38 @@
-@media only screen and (min-width: 1024px) {
-  .header {
-    width: 100%;
-    height: 113px;
-  }
+.header {
+  width: 100%;
+  height: 113px;
+}
 
-  .line {
-    width: 100%;
-  }
+.line {
+  width: 100%;
+}
 
-  .menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.75rem;
-    cursor: pointer;
-    margin-top: 2%;
-  }
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-top: 2%;
+}
 
-  .menu li:hover,
-  .menu li:focus {
-    color: #ff6f61;
-  }
+.menu li:hover,
+.menu li:focus {
+  color: #ff6f61;
+}
+
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
 }

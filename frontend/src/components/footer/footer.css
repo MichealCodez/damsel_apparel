@@ -1,122 +1,141 @@
-@media only screen and (min-width: 1024px) {
-  .main-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 5% auto 3%;
-    height: 200px;
-    font-size: 0.9rem;
-  }
-
-  .general {
-    width: 40%;
-    color: black;
-    font-size: 0.7rem;
-    font-weight: 300;
-    line-height: 1.8rem;
-    text-transform: capitalize;
-  }
-
-  .general .logo {
-    width: 150px;
-  }
-
-  .general p {
-    margin: 10% 0;
-  }
-
-  .social-handles {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-  }
-
-  .social-handles svg:hover {
-    fill: #ff6f61;
-  }
-
-  .main-footer h6 {
-    color: var(--Dark, #000);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Open Sans;
-    font-size: 0.9rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-bottom: 17%;
-  }
-
-  .main-footer ul {
-    list-style: none;
-    display: flex;
-    flex-flow: column;
-    font-size: 0.7rem;
-    gap: 1rem;
-  }
-
-  .main-footer a {
-    text-decoration: none;
-    color: var(--Black, #1e2832);
-  }
-
-  .main-footer a:hover {
-    color: #ff6f61;
-  }
-
-  .catalog,
-  .customer-service,
-  .about-us {
-    width: 30%;
-    margin: 1% 0 0 5%;
-  }
-  .social-handles a {
-    color: black;
-  }
-  .mini-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    height: 50px;
-  }
-  .mini-footer-cont {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    font-size: 0.9rem;
-    font-family: Open Sans;
-    text-transform: capitalize;
-  }
-
-  .mini-footer-cont img {
-    width: 30%;
-    margin-right: 15%;
-  }
-
-  .mini-footer a {
-    color: white;
-  }
-
-  .mini-footer a:hover {
-    color: #ff6f61;
-  }
-
-  .mini-footer span {
-    color: #ff6f61;
-  }
-
-  .scroll-up {
-    display: flex;
-    white-space: nowrap;
-    gap: 0.5rem;
-  }
-
-  .scroll-up:hover {
-    filter: invert(60%) sepia(30%) saturate(2515%) hue-rotate(311deg)
-      brightness(101%) contrast(70%);
-    cursor: pointer;
-  }
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 5% auto 3%;
+  height: 200px;
+  font-size: 0.9rem;
 }
+
+.general {
+  width: 40%;
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+}
+
+.general .logo {
+  width: 150px;
+}
+
+.general p {
+  margin: 10% 0;
+}
+
+.social-handles {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.social-handles svg:hover {
+  fill: #ff6f61;
+}
+
+.main-footer h6 {
+  color: var(--Dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 17%;
+}
+
+.main-footer ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  font-size: 0.7rem;
+  gap: 1rem;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: var(--Black, #1e2832);
+}
+
+.main-footer a:hover {
+  color: #ff6f61;
+}
+
+.catalog,
+.customer-service,
+.about-us {
+  width: 30%;
+  margin: 1% 0 0 5%;
+}
+.social-handles a {
+  color: black;
+}
+.mini-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.mini-footer-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 0.9rem;
+  font-family: Open Sans;
+  text-transform: capitalize;
+}
+
+.mini-footer-cont img {
+  width: 30%;
+  margin-right: 15%;
+}
+
+.mini-footer a {
+  color: white;
+}
+
+.mini-footer a:hover {
+  color: #ff6f61;
+}
+
+.mini-footer span {
+  color: #ff6f61;
+}
+
+.scroll-up {
+  display: flex;
+  white-space: nowrap;
+  gap: 0.5rem;
+}
+
+.scroll-up:hover {
+  filter: invert(60%) sepia(30%) saturate(2515%) hue-rotate(311deg)
+    brightness(101%) contrast(70%);
+  cursor: pointer;
+}
+
+/* Your regular styles for desktop go here */
+
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
+}
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

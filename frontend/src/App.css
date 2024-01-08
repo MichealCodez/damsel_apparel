@@ -39,12 +39,23 @@ html {
 body {
   overflow-x: hidden;
 }
-/* Mobile Styles */
+/* Your regular styles for desktop go here */
 
-@media only screen and (min-width: 600px) {
-  /* Tablet Styles */
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  /* Styles for viewport width 992 pixels or less (tablet) */
+  /* Adjust styles accordingly for your tablet layout */
 }
 
-@media only screen and (min-width: 1024px) {
-  /* Desktop Styles */
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Styles for viewport width 768 pixels or less (mobile) */
+  /* Adjust styles accordingly for your mobile layout */
 }
+
+/* Additional media queries can be added for finer control */
+@media only screen and (max-width: 576px) {
+  /* Styles for viewport width 576 pixels or less (extra small devices) */
+}
+
+/* Add more media queries as needed for your design */

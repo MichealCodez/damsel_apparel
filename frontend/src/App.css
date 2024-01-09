@@ -51,25 +51,11 @@ body {
   .instagram-cont,
   .mini-footer-cont,
   .main-footer {
-    width: 70%;
+    width: 90%;
   }
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  .slider-products,
-  .top-main,
-  .hot_category,
-  .grid_prodects,
-  .brand-cont,
-  .instagram-cont,
-  .mini-footer-cont,
-  .main-footer {
-    width: 80%;
-  }
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
   .slider-products,
   .top-main,

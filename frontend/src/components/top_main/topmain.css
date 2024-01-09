@@ -42,6 +42,12 @@
     width: 90%;
   }
   .top-main {
-    height: 100vh;
+    height: 920px;
+  }
+
+  #right-flower {
+    width: 195px;
+    top: 40%;
+    left: 50%;
   }
 }

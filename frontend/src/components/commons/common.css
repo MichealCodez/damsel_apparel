@@ -181,6 +181,15 @@
   .main-bottom-cat {
     display: flex;
   }
+
+  .category {
+    font-size: 0.5rem;
+    width: 80%;
+  }
+
+  .main-card {
+    height: 60%;
+  }
 }
 
 /* Additional media queries can be added for finer control */

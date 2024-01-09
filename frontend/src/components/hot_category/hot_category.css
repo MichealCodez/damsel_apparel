@@ -74,8 +74,9 @@
 
 /* Media query for tablets */
 @media only screen and (max-width: 992px) {
-  /* Styles for viewport width 992 pixels or less (tablet) */
-  /* Adjust styles accordingly for your tablet layout */
+  .hot-cat {
+    width: 90%;
+  }
 }
 
 /* Media query for mobile devices */

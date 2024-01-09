@@ -176,9 +176,11 @@
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
+@media only screen and (max-width: 576px) {
+  .bottom-cat,
+  .main-bottom-cat {
+    display: flex;
+  }
 }
 
 /* Additional media queries can be added for finer control */

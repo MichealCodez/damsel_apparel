@@ -114,14 +114,8 @@ form {
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
+  .newsletter-instagram-section {
+    width: 90%;
+  }
 }
-
-/* Add more media queries as needed for your design */

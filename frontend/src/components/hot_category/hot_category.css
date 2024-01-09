@@ -79,14 +79,44 @@
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
-}
+  .hot-cat {
+    width: 90%;
+    height: 100vh;
+    flex-flow: column;
+    margin-bottom: 15%;
+  }
 
-/* Add more media queries as needed for your design */
+  .vertical-text {
+    position: relative;
+    transform: none;
+    left: 0;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .cards-cont {
+    grid-template-areas:
+      "ft ft"
+      "ft ft"
+      "sc td"
+      "fr ff";
+    gap: 0.5rem 0.5rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:first-child .bottom-cat {
+    top: 89%;
+  }
+
+  .cards-cont .card:nth-child(2) .bottom-cat {
+    top: 89%;
+  }
+
+  .cards-cont .card:nth-child(3) .bottom-cat {
+    top: 89%;
+  }
+}

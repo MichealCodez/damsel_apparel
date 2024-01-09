@@ -43,19 +43,42 @@ body {
 
 /* Media query for tablets */
 @media only screen and (max-width: 992px) {
-  /* Styles for viewport width 992 pixels or less (tablet) */
-  /* Adjust styles accordingly for your tablet layout */
+  .slider-products,
+  .top-main,
+  .hot_category,
+  .grid_prodects,
+  .brand-cont,
+  .instagram-cont,
+  .mini-footer-cont,
+  .main-footer {
+    width: 70%;
+  }
 }
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
+  .slider-products,
+  .top-main,
+  .hot_category,
+  .grid_prodects,
+  .brand-cont,
+  .instagram-cont,
+  .mini-footer-cont,
+  .main-footer {
+    width: 80%;
+  }
 }
 
 /* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
+  .slider-products,
+  .top-main,
+  .hot_category,
+  .grid_prodects,
+  .brand-cont,
+  .instagram-cont,
+  .mini-footer-cont,
+  .main-footer {
+    width: 90%;
+  }
 }
-
-/* Add more media queries as needed for your design */

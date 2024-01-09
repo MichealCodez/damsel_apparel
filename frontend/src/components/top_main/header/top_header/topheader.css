@@ -49,6 +49,7 @@
 }
 
 .search-input {
+  /* width: 80%; */
   border: 0.05rem solid;
   border-top: 0;
   border-left: 0;
@@ -68,23 +69,33 @@
   margin-bottom: -3px;
 }
 
-/* Your regular styles for desktop go here */
-
 /* Media query for tablets */
 @media only screen and (max-width: 992px) {
-  /* Styles for viewport width 992 pixels or less (tablet) */
-  /* Adjust styles accordingly for your tablet layout */
+  .abtn {
+    font-size: 80%;
+  }
+
+  .logo {
+    width: 25%;
+  }
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
-}
+  .abtn {
+    font-size: 70%;
+  }
+  .btn-right {
+    width: 30%;
+  }
 
-/* Add more media queries as needed for your design */
+  .search {
+    width: 25%;
+  }
+  .search-input {
+    width: 80%;
+  }
+  .logo {
+    margin-right: 5%;
+  }
+}

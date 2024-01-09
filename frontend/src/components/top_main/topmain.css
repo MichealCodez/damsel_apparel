@@ -31,19 +31,17 @@
 
 /* Media query for tablets */
 @media only screen and (max-width: 992px) {
-  /* Styles for viewport width 992 pixels or less (tablet) */
-  /* Adjust styles accordingly for your tablet layout */
+  .mini-top-main {
+    width: 85%;
+  }
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
+  .mini-top-main {
+    width: 90%;
+  }
+  .top-main {
+    height: 100vh;
+  }
 }
-
-/* Add more media queries as needed for your design */

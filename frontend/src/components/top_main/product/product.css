@@ -89,19 +89,30 @@
 
 /* Media query for tablets */
 @media only screen and (max-width: 992px) {
-  /* Styles for viewport width 992 pixels or less (tablet) */
-  /* Adjust styles accordingly for your tablet layout */
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  /* Styles for viewport width 768 pixels or less (mobile) */
-  /* Adjust styles accordingly for your mobile layout */
-}
-
-/* Additional media queries can be added for finer control */
 @media only screen and (max-width: 576px) {
-  /* Styles for viewport width 576 pixels or less (extra small devices) */
-}
+  .product {
+    height: 100vh;
+    margin-top: -3%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: unset;
+    gap: 6%;
+  }
 
-/* Add more media queries as needed for your design */
+  .content-div,
+  .image-product {
+    width: 100%;
+  }
+
+  .content-div {
+    height: 30%;
+    gap: 5%;
+  }
+
+  .image-product {
+    height: 47%;
+  }
+}

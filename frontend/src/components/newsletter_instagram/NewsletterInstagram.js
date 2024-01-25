@@ -15,11 +15,8 @@ function NewsletterInstagram() {
         </h2>
         <div className="instagrams">
           {cards.map((value, index) => (
-            <a href={value.video} target="_blank" rel="noreferrer">
-              <InstagramCard
-                src={`${assets}/images/${value.image}`}
-                key={index}
-              />
+            <a key={index} href={value.video} target="_blank" rel="noreferrer">
+              <InstagramCard src={`${assets}/images/${value.image}`} />
             </a>
           ))}
         </div>
